@@ -1,5 +1,5 @@
     import dbConnection from "../config/database";
-    const itemSchema = require("../schema/itemSchema");
+    const itemSchema = require("../models/schema/itemSchema");
     const ItemModel = dbConnection.model("item", itemSchema);
 
     export default {
